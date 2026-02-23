@@ -1,0 +1,26 @@
+name: SimpleAntiChat
+version: '1.0'
+main: me.magicsebs.simpleAntiChat.SimpleAntiChat
+api-version: '1.21'
+authors: [ MagicSebs ]
+description: Lightweight chat filter that deletes messages containing blocked words.
+
+commands:
+  simpleantichat:
+    description: Main command for SimpleAntiChat
+    usage: /<command> reload | warnings <player> | clear <player>
+    aliases: [sac, antichat]
+    permission: simpleantichat.admin
+
+permissions:
+  simpleantichat.admin:
+    description: Allows access to admin commands
+    default: op
+
+  simpleantichat.bypass:
+    description: Allows player to bypass the chat filter
+    default: false
+
+  simpleantichat.notify:
+    description: Receive notifications when a message is blocked
+    default: op

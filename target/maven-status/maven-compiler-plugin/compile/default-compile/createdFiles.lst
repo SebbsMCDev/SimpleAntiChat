@@ -1,0 +1,6 @@
+me\magicsebs\simpleAntiChat\manager\WarningManager.class
+me\magicsebs\simpleAntiChat\commands\AntiChatCommand.class
+me\magicsebs\simpleAntiChat\SimpleAntiChat.class
+me\magicsebs\simpleAntiChat\util\MessageUtil.class
+me\magicsebs\simpleAntiChat\manager\FilterManager.class
+me\magicsebs\simpleAntiChat\listeners\ChatListener.class

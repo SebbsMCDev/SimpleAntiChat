@@ -1,0 +1,49 @@
+# ==========================================
+#          SimpleAntiChat Configuration
+#          Developed by Sebbs
+# ==========================================
+
+# -----------------------------
+# Blocked Words
+# -----------------------------
+# Add all words you want to block from chat
+blocked-words:
+  - badword
+  - exampleword
+  - test123
+
+# -----------------------------
+# Warning System
+# -----------------------------
+warnings:
+  enabled: true             # Enable or disable warnings
+  max-warnings: 3           # Number of warnings before punishment
+  # Command executed when max warnings is reached
+  # Use %player% placeholder
+  punishment-command: "kick %player% Inappropriate language."
+
+# -----------------------------
+# Staff Notifications
+# -----------------------------
+staff-notifications:
+  enabled: true             # Staff with permission will see blocked messages
+
+# -----------------------------
+# Messages
+# -----------------------------
+messages:
+  prefix: "&8[&cSimpleAntiChat&8] "
+
+  blocked-message: "&cYour message was blocked for inappropriate language."
+
+  warning-message: "&eWarning: &c%current%/%max% &efor inappropriate language."
+
+  staff-alert: "&7[Filter] &c%player% &7attempted to say: &f%message%"
+
+  reload: "&aConfiguration reloaded successfully."
+
+  no-permission: "&cYou do not have permission to use this."
+
+  player-not-found: "&cThat player could not be found."
+
+  warnings-cleared: "&aWarnings cleared for %player%."
